@@ -1,0 +1,99 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* img {
+    width: 100%;
+} */
+
+/* Utilities */
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.space {
+    margin-top: 60px;
+}
+
+/* HEADER  */
+
+.top-header {
+    height: 80px;
+    border: 1px solid black;
+}
+
+/* Jumbotron */
+
+
+.jumbotron {
+    height: 200px;
+    border: 1px dashed black;
+
+}
+.col-1 {
+    /* debug */
+    width: 30%;
+    height: 200px;
+    border: 1px dashed black;
+    display: inline-block;
+}
+
+.col-2 {
+    /* debug */
+    width: 60%;
+    height: 200px;
+    border: 1px dashed black;
+    display: inline-block;
+}
+
+.pl-col-1,
+.pl-col-2,
+.pl-col-3 {
+    /* debug */
+    border: 1px solid darkblue;
+    width: calc(100% / 3 - 5px);
+    height: 600px /*fit-content*/;
+    display: inline-block;
+    
+}
+
+.pl-col-4 {
+    /* debug */
+    width: auto;
+    height: 100px;
+    border: 1px solid darkblue;
+}
+
+.par-col-1 {
+    width: 60%;
+}
+
+.par-col-2 {
+    width: 30%
+}
+
+.par-col-1,
+.par-col-2 {
+    border: 1px solid red;
+    height: 90px;
+    display: inline-block;
+}
+
+.bsns-col-1 {
+    margin-bottom: 10px;
+    /* debug */
+    display: inline-block;
+    border: 1px solid green;
+    
+}
+
+.discover {
+    /* debug */
+    border: 1px solid pink;
+    height: 70px;
+}
