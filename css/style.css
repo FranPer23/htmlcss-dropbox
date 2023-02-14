@@ -21,7 +21,7 @@ img {
 .container {
     margin: 0 auto;
     width: 80%;
-    text-align: center;
+    
 }
 
 .space {
@@ -37,6 +37,10 @@ img {
     padding: .4rem ;
     color: white;
     text-decoration: none;
+}
+
+.position {
+    position: relative;
 }
 
 /* HEADER  */
@@ -69,25 +73,36 @@ img {
 
 /* Jumbotron */
 
+h1 {
+    font-weight: 800;
+    text-align: center;
+    
+}
 
 .jumbotron {
-    /* height: 200px; */
-    padding: 80px;
+    padding: 6rem 2rem 0 0;
     background-color: #b4d0e7;
+    
 
 }
 
+.distanza {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
 .arrow {
-    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
 }
+
 .col-1 {
-    width: 30%;
-    
+    width: 30%; 
 }
 
 .col-2 {
     width: 70%;
-   
 }
 
 .pl-col-1,
