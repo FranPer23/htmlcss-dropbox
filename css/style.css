@@ -43,6 +43,21 @@ img {
     position: relative;
 }
 
+/* Testi */
+/* header */
+
+h1 {
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+/* main*/
+
+h2 {
+    font-weight: 800;
+}
+
 /* HEADER  */
 .top-header {
     height: 80px;
@@ -73,11 +88,6 @@ img {
 
 /* Jumbotron */
 
-h1 {
-    font-weight: 800;
-    text-align: center;
-    
-}
 
 .jumbotron {
     padding: 6rem 2rem 0 0;
@@ -105,15 +115,42 @@ h1 {
     width: 70%;
 }
 
+.rounded-checkbox {
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 60px;
+    appearance: none;
+    border: 1px solid blue;
+    
+    
+  }
+
+  .rounded-checkbox:checked {
+    clip-path: circle(50% at 50% 50%);
+    background-color: blue;
+  }
+
+/* .fatturazione {
+    padding
+} */
 .pl-col-1,
 .pl-col-2,
 .pl-col-3 {
-    /* debug */
-    border: 1px solid darkblue;
-    width: calc(100% / 3 - 5px);
-    height: 600px /*fit-content*/;
-    display: inline-block;
     
+    border: 1px solid darkblue;
+    width: calc(100% / 3);
+    justify-content: space-between;
+    
+}
+
+.plans li {
+    padding: 1rem;
+    margin: 1em 0;
+}
+
+.fa-check {
+    color:#0061ff  ;
 }
 
 .pl-col-4 {
@@ -125,6 +162,7 @@ h1 {
 
 .par-col-1 {
     width: 60%;
+    height: fit-content;
 }
 
 .par-col-2 {
