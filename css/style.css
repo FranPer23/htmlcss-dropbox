@@ -212,10 +212,14 @@ h2 {
     margin: 4rem ;
 }
 
+
 .discover {
-    /* debug */
-    border: 1px solid pink;
-    height: 70px;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.discover h2 {
+    font-size:xx-large;
 }
 
 .ft-top-right,
@@ -225,22 +229,59 @@ h2 {
 
 }
 
+.txt {
+    color: #61082b;
+    font-size: xx-large;
+}
+
 
 
 .footer-bottom {
-    /* debug */
-    height: 100px ;
-    border: 1px dashed black;
+    height: 310px ;
+    background-color: #b4d0e7;
+    padding: 6rem;
+}
+
+.col-1 a {
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+.faq {
+   flex-direction: column; 
 
 }
 
-.txt {
-    display: inline-block;
-    /* debug */
-    border: 1px dashed red;
-    height: 40%;
+.last-footer {
+    background-color: black;
+    color: white;
+    padding: 4rem;
+    padding-left: 5rem;
 }
 
-.btn {
-    display: inline-block;
+.col-interna {
+    justify-content: space-around;
+}
+
+.col-interna-1 li:first-child {
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.col-interna-1 {
+    line-height: 3rem;
+}
+
+.last-hr {
+    color: white;
+    width: 10%;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.lingua {
+    margin-left: 2rem;
 }
