@@ -66,6 +66,7 @@ h2 {
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: 999;
 }
 
 .logo {
@@ -93,7 +94,6 @@ h2 {
     padding: 6rem 2rem 0 0;
     background-color: #b4d0e7;
     
-
 }
 
 .distanza {
@@ -131,17 +131,26 @@ h2 {
     background-color: blue;
   }
 
-/* .fatturazione {
-    padding
-} */
+.class-header {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
 .pl-col-1,
 .pl-col-2,
-.pl-col-3 {
+.pl-col-3,
+.pl-col-4 {
     
-    border: 1px solid darkblue;
+    border: 1px solid lightgray;
     width: calc(100% / 3);
-    justify-content: space-between;
     
+}
+
+.pl-col-2 {
+    margin-right: 3.8rem;
+    margin-left: 3.8rem;
 }
 
 .plans li {
@@ -154,15 +163,29 @@ h2 {
 }
 
 .pl-col-4 {
-    /* debug */
+    margin-top: 2rem;
+    height: fit-content;
     width: auto;
-    height: 100px;
-    border: 1px solid darkblue;
+    border: 1px solid lightgray;
+    position: relative;
+
 }
+
+.enterprise {
+    padding: .5rem;
+    margin: .5rem 0;
+    line-height: 50px;
+}
+
+.enterpr {
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+
 
 .par-col-1 {
     width: 60%;
-    height: fit-content;
 }
 
 .par-col-2 {
@@ -176,6 +199,9 @@ h2 {
     display: inline-block;
 }
 
+.trova-un-prtn {
+
+}
 .bsns-col-1 {
     margin-bottom: 10px;
     /* debug */
