@@ -58,6 +58,12 @@ h2 {
     font-weight: 800;
 }
 
+/* footer */
+
+h3 { 
+    line-height: 6rem;
+}
+
 /* HEADER  */
 .top-header {
     height: 80px;
@@ -242,7 +248,7 @@ h2 {
     padding: 6rem;
 }
 
-.col-1 a {
+.free-trial {
     text-decoration: none;
     padding: 1rem;
     background-color: #ffffff;
@@ -250,8 +256,18 @@ h2 {
 
 .faq {
    flex-direction: column; 
-
+    padding-bottom: 2rem;
 }
+ 
+.qst p {
+    display: none;
+}
+
+i.fa-angle-down:hover .show {
+    display: block;
+}
+
+
 
 .last-footer {
     background-color: black;
